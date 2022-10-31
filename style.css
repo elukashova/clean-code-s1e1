@@ -57,11 +57,11 @@
 }
 
 .tasks__input,
-.button {
+.tasks__button {
   outline: none;
 }
 
-.button {
+.tasks__button {
   background: none;
   border: 0px;
   color: #888;
@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.tasks__button:hover {
   color: #3a3a3a;
 }
 
@@ -127,7 +127,7 @@
 
 .tasks__label,
 .tasks__input,
-.button {
+.tasks__button {
   vertical-align: middle;
 }
 
@@ -147,13 +147,13 @@
   width: 226px;
 }
 
-.button__img_delete {
+.tasks__button_img-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__img_delete:hover {
+.tasks__button_img-delete:hover {
   transform: rotateZ(0);
 }
 

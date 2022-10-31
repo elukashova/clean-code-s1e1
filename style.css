@@ -158,7 +158,7 @@
 }
 
 /* Completed */
-.done-tasks__name {
+.done-tasks__list .tasks__name {
   text-decoration: line-through;
   color: #888;
 }
